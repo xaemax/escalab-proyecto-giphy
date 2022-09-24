@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="rss/style.css" />
+
+</head>
+
+<body>
+  <header>
+    <p class="glitch">
+      <span>Giphy Explorer</span>
+      Giphy Explorer
+      <span>Giphy Explorer</span>
+    </p>
+    <figure>
+      <img src="rss/200.gif">
+    </figure>
+  </header>
+  <main>
+    <section class="searchsect">
+      <form method="post" id="forms">
+        <input type="text" class="searchbar" name="search" id="busqueda" placeholder="Introduce una descripción">
+        <input type="button" value="Buscar" class="btn" id="btn">
+      </form>
+    </section class="localStorage">
+    <div id="saveSearch"></div>
+    </section>
+    <section class="container" id="container">
+      <div id="root"></div>
+    </section>
+
+  </main>
+  <script type="module" src="rss/principal.js"></script>
+  <script type="module" src="rss/search.js"></script>
+</body>
+
+</html>
